@@ -6,6 +6,8 @@ import rateLimit from 'express-rate-limit';
 import { registerUser, errorHandler } from 'lib-common-service';
 
 // Email Routes
+import routes from './routes/index.js';
+import { EMAIL_API } from './constants.js';
 
 const app = express();
 
@@ -30,6 +32,7 @@ app.use(rateLimit({
 }));
 
 // Email Routes
+app.post(`${EMAIL_API}/send-mail`, registerUser, routes.sendMail);
 
 // Error Handler middleware
 app.use(errorHandler);
