@@ -6,7 +6,8 @@ const mailTemplateName = {
     USER_REACTIVATE_MAIL: 'accountReactivateMail',
     USER_UPDATED_MAIL: 'userUpdatedMail',
     USER_PASSWORD_UPDATED_MAIL: 'passwordUpdatedMail',
-    USER_DEACTIVATE_MAIL: 'accountDeactivatedMail'
+    USER_DEACTIVATE_MAIL: 'accountDeactivatedMail',
+    PASSWORD_RESET_MAIL: 'requestPasswordResetMail'
 }
 
 const mailSubjectLine = {
@@ -15,7 +16,8 @@ const mailSubjectLine = {
     USER_REACTIVATE_MAIL: 'Welcome Back! Your Account is Reactivated.',
     USER_UPDATED_MAIL: 'Account Details Successfully Updated',
     USER_PASSWORD_UPDATED_MAIL: 'Password Updated Successfully',
-    USER_DEACTIVATE_MAIL: 'Account Deactivation Confirmation'
+    USER_DEACTIVATE_MAIL: 'Account Deactivation Confirmation',
+    PASSWORD_RESET_MAIL: 'Reset your Password'
 }
 
 export {
