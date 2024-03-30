@@ -26,7 +26,7 @@ const sendMail = async(req, res, next) => {
 
             if (isMailSend.isValid) {
                 log.info(isMailSend.resMsg);
-                registerLog.createInfoLog('Mail sent to user successfully', isMailSend);
+                registerLog.createInfoLog('Mail sent to user successfully', null, isMailSend);
                 res.status(responseCodes[isMailSend.resType]).json(
                     buildApiResponse(isMailSend)
                 );
