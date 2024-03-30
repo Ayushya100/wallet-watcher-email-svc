@@ -8,7 +8,8 @@ const mailTemplateName = {
     USER_PASSWORD_UPDATED_MAIL: 'passwordUpdatedMail',
     USER_DEACTIVATE_MAIL: 'accountDeactivatedMail',
     PASSWORD_RESET_MAIL: 'requestPasswordResetMail',
-    CARD_REGISTRATION_MAIL: 'registerNewCardMail'
+    CARD_REGISTRATION_MAIL: 'registerNewCardMail',
+    CARD_UPDATION_MAIL: 'updateCardDetailsMail'
 }
 
 const mailSubjectLine = {
@@ -19,7 +20,8 @@ const mailSubjectLine = {
     USER_PASSWORD_UPDATED_MAIL: 'Password Updated Successfully',
     USER_DEACTIVATE_MAIL: 'Account Deactivation Confirmation',
     PASSWORD_RESET_MAIL: 'Reset your Password',
-    CARD_REGISTRATION_MAIL: 'Confirmation: New Card Registration'
+    CARD_REGISTRATION_MAIL: 'Confirmation: New Card Registration',
+    CARD_UPDATION_MAIL: 'Update: Card Details Successfully Updated'
 }
 
 export {
