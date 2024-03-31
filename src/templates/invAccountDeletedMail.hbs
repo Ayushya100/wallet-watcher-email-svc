@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation: New Card Registration</title>
+
+    <style>
+        .username {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .message {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .message-heading {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: -10px;
+        }
+        .info {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .info-span {
+            font-weight: normal;
+        }
+        .from-reg {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 2px;
+        }
+        .from {
+            font-size: 16px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>    
+    <div class="username">Dear {{ fullName }},</div>
+    <div class="message">We want to confirm that the deletion request for your investment account with account number {{ accountNumber }} has been successfully processed. Your investment account has been permanently deleted from our system as per your request.</div>
+
+    <div class="message">This action means that your account, along with any associated investment holdings and data, has been removed from our platform. Please note that this process is irreversible, and you will no longer have access to your account or its contents.</div>
+    <div class="message">If you have any questions or concerns regarding this deletion, or if you believe this action was taken in error, please reach out to our support team at {{ custContactEmailId }}. We're here to provide any further assistance you may need.</div>
+    <div class="message">We appreciate the opportunity to have served you during your time with us. Should you ever choose to return or require assistance in the future, please don't hesitate to reach out.</div>
+    <div class="message">Thank you for being a valued member of our community.</div>
+
+    <div class="from-reg">Best regards,</div>
+    <div class="from">Team Wallet watcher</div>
+</body>
+</html>
