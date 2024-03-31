@@ -13,7 +13,8 @@ const mailTemplateName = {
     CARD_DEACTIVATION_MAIL: 'cardDeactivatedMail',
     CARD_REACTIVATION_MAIL: 'cardReactivatedMail',
     CARD_DELETION_MAIL: 'cardDeletedMail',
-    ACCOUNT_REGISTRATION_MAIL: 'registerNewAccountMail'
+    ACCOUNT_REGISTRATION_MAIL: 'registerNewAccountMail',
+    ACCOUNT_UPDATION_MAIL: 'updateAccountDetailsMail'
 }
 
 const mailSubjectLine = {
@@ -29,7 +30,8 @@ const mailSubjectLine = {
     CARD_DEACTIVATION_MAIL: 'Confirmation: Card Deactivation Request Processed',
     CARD_REACTIVATION_MAIL: 'Confirmation: Card Reactivation Request Processed',
     CARD_DELETION_MAIL: 'Confirmation: Card Deletion Request Processed',
-    ACCOUNT_REGISTRATION_MAIL: 'Welcome to Your New Investment Account!'
+    ACCOUNT_REGISTRATION_MAIL: 'Welcome to Your New Investment Account!',
+    ACCOUNT_UPDATION_MAIL: 'Update: Investment Account Details Successfully Updated'
 }
 
 export {
